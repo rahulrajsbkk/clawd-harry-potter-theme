@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes deepBreathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-3.5px)}}
+@keyframes nod{0%,100%{transform:rotate(5deg)}50%{transform:rotate(9deg)}}
+@keyframes zz{0%{opacity:0;transform:translate(0,0) scale(0.5)}40%{opacity:1}100%{opacity:0;transform:translate(10px,-20px) scale(1.1)}}
+</style>
+<ellipse cx="100" cy="172" rx="42" ry="6" fill="#2E2418" opacity="0.25"/>
+<g style="animation:deepBreathe 4.5s ease-in-out infinite">
+  <ellipse cx="87" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <ellipse cx="113" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <path d="M68,166 Q64,122 100,112 Q136,122 132,166 Z" fill="#3D3D55"/>
+  <path d="M100,114 L92,166 L108,166 Z" fill="#6E1414"/>
+  <path d="M100,114 L96,166 L104,166 Z" fill="#8C1B1B"/>
+  <g transform="rotate(24 74 132)"><ellipse cx="74" cy="136" rx="7.5" ry="15" fill="#34344A"/></g>
+  <circle cx="66" cy="149" r="5" fill="#F6D6AE"/>
+  <g transform="rotate(-24 126 132)"><ellipse cx="126" cy="136" rx="7.5" ry="15" fill="#34344A"/></g>
+  <circle cx="134" cy="149" r="5" fill="#F6D6AE"/>
+  <g style="transform-origin:100px 108px;animation:nod 4.5s ease-in-out infinite">
+    <circle cx="100" cy="80" r="34" fill="#F6D6AE"/>
+    <ellipse cx="79" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+    <ellipse cx="121" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+    <path d="M96,105 Q100,107 104,105" stroke="#B06A5A" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M79,90 Q86,94 93,90" stroke="#2A1A0F" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M107,90 Q114,94 121,90" stroke="#2A1A0F" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M66,88 Q58,40 100,36 Q142,40 134,88 L130,72 L122,80 L118,64 L108,74 L104,60 L96,70 L92,56 L86,58 L82,72 L74,66 L70,80 Z" fill="#26221F"/>
+    <polyline points="89,60 85,65 89,69 85,74" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="86" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+    <circle cx="114" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+    <line x1="97.5" y1="90" x2="102.5" y2="90" stroke="#1C1C1C" stroke-width="2.5"/>
+  </g>
+  <rect x="78" y="106" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="109" y="115" width="11" height="26" rx="2" fill="#7F0909"/>
+  <rect x="109" y="121" width="11" height="5" fill="#E6A817"/>
+  <rect x="109" y="131" width="11" height="5" fill="#E6A817"/>
+</g>
+<g style="animation:zz 3s ease-in-out infinite"><text x="138" y="56" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8FA6C8">z</text></g>
+</svg>

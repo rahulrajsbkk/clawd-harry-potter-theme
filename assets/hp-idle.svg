@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-2.5px)}}
+@keyframes blink{0%,90%,100%{transform:scaleY(1)}94%{transform:scaleY(0.08)}}
+@keyframes scarfSway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes snitchFly{0%,100%{transform:translate(0,0)}25%{transform:translate(-6px,-8px)}50%{transform:translate(4px,-14px)}75%{transform:translate(8px,-4px)}}
+@keyframes wingFlap{0%,100%{transform:scaleX(1)}50%{transform:scaleX(0.35)}}
+.blink{transform-origin:100px 90px;animation:blink 4.5s infinite ease-in-out}
+#pupil-left,#pupil-right{transition:transform 0.2s ease-out}
+</style>
+<ellipse cx="100" cy="172" rx="42" ry="6" fill="#2E2418" opacity="0.25"/>
+<g style="animation:breathe 3.5s ease-in-out infinite">
+  <!-- shoes -->
+  <ellipse cx="87" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <ellipse cx="113" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <!-- robe -->
+  <path d="M68,166 Q64,122 100,112 Q136,122 132,166 Z" fill="#3D3D55"/>
+  <path d="M100,114 L92,166 L108,166 Z" fill="#6E1414"/>
+  <path d="M100,114 L96,166 L104,166 Z" fill="#8C1B1B"/>
+  <!-- arms -->
+  <g transform="rotate(18 74 132)"><ellipse cx="74" cy="134" rx="7.5" ry="15" fill="#34344A"/></g>
+  <circle cx="68" cy="147" r="5" fill="#F6D6AE"/>
+  <g transform="rotate(-18 126 132)"><ellipse cx="126" cy="134" rx="7.5" ry="15" fill="#34344A"/></g>
+  <circle cx="132" cy="147" r="5" fill="#F6D6AE"/>
+  <!-- wand in right hand -->
+  <line x1="132" y1="148" x2="150" y2="130" stroke="#7A4A21" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="150" cy="130" r="1.8" fill="#A97845"/>
+  <!-- head -->
+  <circle cx="100" cy="80" r="34" fill="#F6D6AE"/>
+  <ellipse cx="79" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="121" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <path d="M95,104 Q100,108 105,104" stroke="#B06A5A" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- eyes -->
+  <g class="blink">
+    <ellipse cx="86" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+    <ellipse cx="114" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+    <circle id="pupil-left" cx="86" cy="90" r="4.2" fill="#2F7A3F"/>
+    <circle id="pupil-right" cx="114" cy="90" r="4.2" fill="#2F7A3F"/>
+    <circle cx="84.5" cy="88" r="1.5" fill="#FFFFFF"/>
+    <circle cx="112.5" cy="88" r="1.5" fill="#FFFFFF"/>
+  </g>
+  <!-- hair -->
+  <path d="M66,88 Q58,40 100,36 Q142,40 134,88 L130,72 L122,80 L118,64 L108,74 L104,60 L96,70 L92,56 L86,58 L82,72 L74,66 L70,80 Z" fill="#26221F"/>
+  <!-- scar -->
+  <polyline points="89,60 85,65 89,69 85,74" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- glasses -->
+  <circle cx="86" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <circle cx="114" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <line x1="97.5" y1="90" x2="102.5" y2="90" stroke="#1C1C1C" stroke-width="2.5"/>
+  <line x1="74.5" y1="88" x2="68" y2="85" stroke="#1C1C1C" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="125.5" y1="88" x2="132" y2="85" stroke="#1C1C1C" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- scarf -->
+  <rect x="78" y="106" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="106" width="7" height="11" fill="#E6A817"/>
+  <g style="transform-origin:114px 116px;animation:scarfSway 4s ease-in-out infinite">
+    <rect x="109" y="115" width="11" height="28" rx="2" fill="#7F0909"/>
+    <rect x="109" y="121" width="11" height="5" fill="#E6A817"/>
+    <rect x="109" y="132" width="11" height="5" fill="#E6A817"/>
+    <line x1="111" y1="143" x2="111" y2="147" stroke="#E6A817" stroke-width="1.5"/>
+    <line x1="114.5" y1="143" x2="114.5" y2="147" stroke="#E6A817" stroke-width="1.5"/>
+    <line x1="118" y1="143" x2="118" y2="147" stroke="#E6A817" stroke-width="1.5"/>
+  </g>
+</g>
+<!-- golden snitch -->
+<g style="animation:snitchFly 6s ease-in-out infinite"><g transform="translate(156,62)">
+  <g style="transform-origin:-5px 0px;animation:wingFlap 0.5s ease-in-out infinite"><ellipse cx="-9" cy="-1" rx="6" ry="2.5" fill="#F5F2E8" opacity="0.9"/></g>
+  <g style="transform-origin:5px 0px;animation:wingFlap 0.5s ease-in-out infinite"><ellipse cx="9" cy="-1" rx="6" ry="2.5" fill="#F5F2E8" opacity="0.9"/></g>
+  <circle cx="0" cy="0" r="4.5" fill="#E8B923" stroke="#A87905" stroke-width="1"/>
+  <line x1="-3" y1="0" x2="3" y2="0" stroke="#A87905" stroke-width="0.8"/>
+</g></g>
+</svg>

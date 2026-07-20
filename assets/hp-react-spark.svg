@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+@keyframes glowPulse{0%,100%{opacity:0.25;transform:scale(0.7)}50%{opacity:0.9;transform:scale(1.15)}}
+@keyframes sparkle{0%,100%{opacity:0.2;transform:scale(0.6) rotate(0deg)}50%{opacity:1;transform:scale(1.15) rotate(20deg)}}
+</style>
+<ellipse cx="100" cy="172" rx="42" ry="6" fill="#2E2418" opacity="0.25"/>
+<!-- Lumos glow -->
+<g style="transform-origin:143px 92px;animation:glowPulse 0.9s ease-in-out infinite"><circle cx="143" cy="92" r="14" fill="#FFE9A8"/></g>
+<circle cx="143" cy="92" r="6" fill="#FFD34D" opacity="0.9"/>
+<g style="transform-origin:158px 84px;animation:sparkle 0.9s ease-in-out infinite 0.2s"><g transform="translate(158,84)"><path d="M0,-4 L1,-1 L4,0 L1,1 L0,4 L-1,1 L-4,0 L-1,-1 Z" fill="#E8B923"/></g></g>
+<g style="transform-origin:132px 74px;animation:sparkle 0.9s ease-in-out infinite 0.5s"><g transform="translate(132,74)"><path d="M0,-4 L1,-1 L4,0 L1,1 L0,4 L-1,1 L-4,0 L-1,-1 Z" fill="#E8B923"/></g></g>
+<g style="transform-origin:152px 108px;animation:sparkle 0.9s ease-in-out infinite 0.7s"><g transform="translate(152,108)"><path d="M0,-3 L0.8,-0.8 L3,0 L0.8,0.8 L0,3 L-0.8,0.8 L-3,0 L-0.8,-0.8 Z" fill="#E8B923"/></g></g>
+<g style="animation:breathe 3.5s ease-in-out infinite">
+  <ellipse cx="87" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <ellipse cx="113" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <path d="M68,166 Q64,122 100,112 Q136,122 132,166 Z" fill="#3D3D55"/>
+  <path d="M100,114 L92,166 L108,166 Z" fill="#6E1414"/>
+  <path d="M100,114 L96,166 L104,166 Z" fill="#8C1B1B"/>
+  <g transform="rotate(18 74 132)"><ellipse cx="74" cy="134" rx="7.5" ry="15" fill="#34344A"/></g>
+  <circle cx="68" cy="147" r="5" fill="#F6D6AE"/>
+  <g transform="rotate(150 128 128)"><ellipse cx="128" cy="128" rx="7" ry="14" fill="#34344A"/></g>
+  <circle cx="134" cy="115" r="5" fill="#F6D6AE"/>
+  <line x1="134" y1="114" x2="143" y2="92" stroke="#7A4A21" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="100" cy="80" r="34" fill="#F6D6AE"/>
+  <ellipse cx="79" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="121" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <path d="M92,102 Q100,110 108,102" stroke="#B06A5A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <ellipse cx="86" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <ellipse cx="114" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <circle cx="88" cy="88.5" r="4.2" fill="#2F7A3F"/>
+  <circle cx="116" cy="88.5" r="4.2" fill="#2F7A3F"/>
+  <circle cx="86.5" cy="87" r="1.5" fill="#FFFFFF"/>
+  <circle cx="114.5" cy="87" r="1.5" fill="#FFFFFF"/>
+  <path d="M66,88 Q58,40 100,36 Q142,40 134,88 L130,72 L122,80 L118,64 L108,74 L104,60 L96,70 L92,56 L86,58 L82,72 L74,66 L70,80 Z" fill="#26221F"/>
+  <polyline points="89,60 85,65 89,69 85,74" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="86" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <circle cx="114" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <line x1="97.5" y1="90" x2="102.5" y2="90" stroke="#1C1C1C" stroke-width="2.5"/>
+  <rect x="78" y="106" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="109" y="115" width="11" height="26" rx="2" fill="#7F0909"/>
+  <rect x="109" y="121" width="11" height="5" fill="#E6A817"/>
+  <rect x="109" y="131" width="11" height="5" fill="#E6A817"/>
+</g>
+</svg>

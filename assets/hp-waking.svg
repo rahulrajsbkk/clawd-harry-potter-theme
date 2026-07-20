@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes rub{0%,100%{transform:translate(0,0)}25%{transform:translate(-1.5px,0.5px)}75%{transform:translate(1.5px,-0.5px)}}
+@keyframes sway{0%,100%{transform:rotate(0deg)}50%{transform:rotate(2deg)}}
+</style>
+<ellipse cx="100" cy="172" rx="48" ry="6" fill="#2E2418" opacity="0.25"/>
+<g style="transform-origin:100px 164px;animation:sway 4s ease-in-out infinite">
+  <ellipse cx="84" cy="166" rx="11" ry="4.5" fill="#2A2A2A"/>
+  <ellipse cx="116" cy="166" rx="11" ry="4.5" fill="#2A2A2A"/>
+  <path d="M62,166 Q60,130 100,126 Q140,130 138,166 Z" fill="#3D3D55"/>
+  <path d="M100,128 L94,166 L106,166 Z" fill="#6E1414"/>
+  <g transform="rotate(-32 128 142)"><ellipse cx="128" cy="146" rx="7" ry="13" fill="#34344A"/></g>
+  <circle cx="136" cy="156" r="5" fill="#F6D6AE"/>
+  <circle cx="100" cy="96" r="34" fill="#F6D6AE"/>
+  <ellipse cx="79" cy="112" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="121" cy="112" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="100" cy="119" rx="3.5" ry="4.5" fill="#7A3B33"/>
+  <!-- right eye half open -->
+  <ellipse cx="114" cy="106" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <circle cx="114" cy="108.5" r="4" fill="#2F7A3F"/>
+  <rect x="105" y="96" width="18" height="7.5" fill="#F6D6AE"/>
+  <path d="M107,103.5 L121,103.5" stroke="#2A1A0F" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M66,104 Q58,56 100,52 Q142,56 134,104 L130,88 L122,96 L118,80 L108,90 L104,76 L96,86 L92,72 L86,74 L82,88 L74,82 L70,96 Z" fill="#26221F"/>
+  <polyline points="89,76 85,81 89,85 85,90" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- glasses askew -->
+  <g transform="rotate(7 100 106)">
+    <circle cx="86" cy="106" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+    <circle cx="114" cy="106" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+    <line x1="97.5" y1="106" x2="102.5" y2="106" stroke="#1C1C1C" stroke-width="2.5"/>
+  </g>
+  <!-- left arm rubbing eye -->
+  <g style="animation:rub 0.9s ease-in-out infinite">
+    <g transform="rotate(-55 76 134)"><ellipse cx="76" cy="136" rx="7" ry="14" fill="#34344A"/></g>
+    <circle cx="86" cy="108" r="5.5" fill="#F6D6AE"/>
+  </g>
+  <rect x="78" y="122" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="122" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="122" width="7" height="11" fill="#E6A817"/>
+</g>
+</svg>

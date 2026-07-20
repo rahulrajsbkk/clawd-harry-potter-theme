@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+@keyframes scribble{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.quill{transform-origin:128px 140px;animation:scribble 0.55s ease-in-out infinite}
+</style>
+<ellipse cx="100" cy="172" rx="42" ry="6" fill="#2E2418" opacity="0.25"/>
+<!-- parchment -->
+<g transform="rotate(-6 130 154)">
+  <rect x="112" y="144" width="40" height="24" rx="2" fill="#F3E7C6" stroke="#D9C79A" stroke-width="1.5"/>
+  <line x1="118" y1="151" x2="146" y2="151" stroke="#C9B98F" stroke-width="1.4"/>
+  <line x1="118" y1="156" x2="142" y2="156" stroke="#C9B98F" stroke-width="1.4"/>
+  <line x1="118" y1="161" x2="138" y2="161" stroke="#C9B98F" stroke-width="1.4"/>
+</g>
+<!-- ink bottle -->
+<rect x="60" y="157" width="10" height="10" rx="2" fill="#2E3A57"/>
+<rect x="63" y="154" width="4" height="4" rx="1" fill="#1E2740"/>
+<g style="animation:breathe 3.5s ease-in-out infinite">
+  <ellipse cx="87" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <ellipse cx="113" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <path d="M68,166 Q64,122 100,112 Q136,122 132,166 Z" fill="#3D3D55"/>
+  <path d="M100,114 L92,166 L108,166 Z" fill="#6E1414"/>
+  <path d="M100,114 L96,166 L104,166 Z" fill="#8C1B1B"/>
+  <g transform="rotate(18 74 132)"><ellipse cx="74" cy="134" rx="7.5" ry="15" fill="#34344A"/></g>
+  <circle cx="68" cy="147" r="5" fill="#F6D6AE"/>
+  <g transform="rotate(-32 126 130)"><ellipse cx="126" cy="130" rx="7" ry="14" fill="#34344A"/></g>
+  <!-- quill hand -->
+  <g class="quill">
+    <circle cx="132" cy="142" r="5" fill="#F6D6AE"/>
+    <line x1="132" y1="142" x2="136" y2="152" stroke="#8B5A2B" stroke-width="2"/>
+    <line x1="132" y1="142" x2="138" y2="120" stroke="#C8C2B4" stroke-width="1.5"/>
+    <ellipse cx="139" cy="121" rx="3.5" ry="9" fill="#EDE9DF" stroke="#C8C2B4" stroke-width="1" transform="rotate(-15 139 121)"/>
+  </g>
+  <circle cx="100" cy="80" r="34" fill="#F6D6AE"/>
+  <ellipse cx="79" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="121" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <path d="M95,104 Q100,107 105,104" stroke="#B06A5A" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="86" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <ellipse cx="114" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <circle cx="87.5" cy="92.5" r="4.2" fill="#2F7A3F"/>
+  <circle cx="115.5" cy="92.5" r="4.2" fill="#2F7A3F"/>
+  <circle cx="86" cy="91" r="1.5" fill="#FFFFFF"/>
+  <circle cx="114" cy="91" r="1.5" fill="#FFFFFF"/>
+  <path d="M66,88 Q58,40 100,36 Q142,40 134,88 L130,72 L122,80 L118,64 L108,74 L104,60 L96,70 L92,56 L86,58 L82,72 L74,66 L70,80 Z" fill="#26221F"/>
+  <polyline points="89,60 85,65 89,69 85,74" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="86" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <circle cx="114" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <line x1="97.5" y1="90" x2="102.5" y2="90" stroke="#1C1C1C" stroke-width="2.5"/>
+  <rect x="78" y="106" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="109" y="115" width="11" height="26" rx="2" fill="#7F0909"/>
+  <rect x="109" y="121" width="11" height="5" fill="#E6A817"/>
+  <rect x="109" y="131" width="11" height="5" fill="#E6A817"/>
+</g>
+</svg>

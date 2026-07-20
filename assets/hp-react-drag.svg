@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes flail{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@keyframes legKick{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+</style>
+<g style="transform-origin:100px 90px;animation:flail 0.5s ease-in-out infinite">
+  <g style="transform-origin:87px 158px;animation:legKick 0.4s ease-in-out infinite"><ellipse cx="84" cy="168" rx="10" ry="4.5" fill="#2A2A2A"/></g>
+  <g style="transform-origin:113px 158px;animation:legKick 0.4s ease-in-out infinite 0.2s"><ellipse cx="116" cy="168" rx="10" ry="4.5" fill="#2A2A2A"/></g>
+  <path d="M68,166 Q64,122 100,112 Q136,122 132,166 Z" fill="#3D3D55"/>
+  <path d="M100,114 L92,166 L108,166 Z" fill="#6E1414"/>
+  <path d="M100,114 L96,166 L104,166 Z" fill="#8C1B1B"/>
+  <!-- arms up -->
+  <g transform="rotate(140 76 126)"><ellipse cx="76" cy="126" rx="7" ry="15" fill="#34344A"/></g>
+  <circle cx="66" cy="112" r="5" fill="#F6D6AE"/>
+  <g transform="rotate(-140 124 126)"><ellipse cx="124" cy="126" rx="7" ry="15" fill="#34344A"/></g>
+  <circle cx="134" cy="112" r="5" fill="#F6D6AE"/>
+  <circle cx="100" cy="80" r="34" fill="#F6D6AE"/>
+  <ellipse cx="79" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="121" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="100" cy="106" rx="4" ry="5" fill="#7A3B33"/>
+  <ellipse cx="86" cy="90" rx="8.5" ry="9.5" fill="#FFFFFF"/>
+  <ellipse cx="114" cy="90" rx="8.5" ry="9.5" fill="#FFFFFF"/>
+  <circle cx="86" cy="90" r="3.2" fill="#2F7A3F"/>
+  <circle cx="114" cy="90" r="3.2" fill="#2F7A3F"/>
+  <circle cx="85" cy="89" r="1.2" fill="#FFFFFF"/>
+  <circle cx="113" cy="89" r="1.2" fill="#FFFFFF"/>
+  <path d="M66,88 Q58,40 100,36 Q142,40 134,88 L130,72 L122,80 L118,64 L108,74 L104,60 L96,70 L92,56 L86,58 L82,72 L74,66 L70,80 Z" fill="#26221F"/>
+  <polyline points="89,60 85,65 89,69 85,74" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="86" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <circle cx="114" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <line x1="97.5" y1="90" x2="102.5" y2="90" stroke="#1C1C1C" stroke-width="2.5"/>
+  <rect x="78" y="106" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="106" width="7" height="11" fill="#E6A817"/>
+  <!-- scarf tail flying up -->
+  <g transform="rotate(-125 114 114)">
+    <rect x="109" y="114" width="11" height="26" rx="2" fill="#7F0909"/>
+    <rect x="109" y="120" width="11" height="5" fill="#E6A817"/>
+    <rect x="109" y="130" width="11" height="5" fill="#E6A817"/>
+  </g>
+</g>
+</svg>

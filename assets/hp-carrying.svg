@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes walkBob{0%,100%{transform:translateY(0) rotate(0deg)}25%{transform:translateY(-2px) rotate(0.8deg)}75%{transform:translateY(-2px) rotate(-0.8deg)}}
+</style>
+<ellipse cx="100" cy="172" rx="42" ry="6" fill="#2E2418" opacity="0.25"/>
+<g style="transform-origin:100px 166px;animation:walkBob 0.9s ease-in-out infinite">
+  <ellipse cx="87" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <ellipse cx="113" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <path d="M68,166 Q64,122 100,112 Q136,122 132,166 Z" fill="#3D3D55"/>
+  <path d="M100,114 L92,166 L108,166 Z" fill="#6E1414"/>
+  <path d="M100,114 L96,166 L104,166 Z" fill="#8C1B1B"/>
+  <circle cx="100" cy="80" r="34" fill="#F6D6AE"/>
+  <ellipse cx="79" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="121" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <path d="M95,104 Q100,107 105,104" stroke="#B06A5A" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="86" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <ellipse cx="114" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <circle cx="86" cy="90" r="4.2" fill="#2F7A3F"/>
+  <circle cx="114" cy="90" r="4.2" fill="#2F7A3F"/>
+  <circle cx="84.5" cy="88" r="1.5" fill="#FFFFFF"/>
+  <circle cx="112.5" cy="88" r="1.5" fill="#FFFFFF"/>
+  <path d="M66,88 Q58,40 100,36 Q142,40 134,88 L130,72 L122,80 L118,64 L108,74 L104,60 L96,70 L92,56 L86,58 L82,72 L74,66 L70,80 Z" fill="#26221F"/>
+  <polyline points="89,60 85,65 89,69 85,74" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="86" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <circle cx="114" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <line x1="97.5" y1="90" x2="102.5" y2="90" stroke="#1C1C1C" stroke-width="2.5"/>
+  <rect x="78" y="106" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="106" width="7" height="11" fill="#E6A817"/>
+  <!-- book stack in arms -->
+  <rect x="80" y="130" width="40" height="10" rx="1.5" fill="#2F5D8A"/>
+  <rect x="115.5" y="131.5" width="3.5" height="7" fill="#EFE6C8"/>
+  <rect x="82" y="120" width="36" height="10" rx="1.5" fill="#8E3B3B"/>
+  <rect x="113.5" y="121.5" width="3.5" height="7" fill="#EFE6C8"/>
+  <rect x="81" y="110" width="38" height="10" rx="1.5" fill="#3F7249"/>
+  <rect x="114.5" y="111.5" width="3.5" height="7" fill="#EFE6C8"/>
+  <g transform="rotate(-30 76 128)"><ellipse cx="76" cy="130" rx="7" ry="14" fill="#34344A"/></g>
+  <g transform="rotate(30 124 128)"><ellipse cx="124" cy="130" rx="7" ry="14" fill="#34344A"/></g>
+  <circle cx="82" cy="116" r="5" fill="#F6D6AE"/>
+  <circle cx="118" cy="116" r="5" fill="#F6D6AE"/>
+</g>
+</svg>

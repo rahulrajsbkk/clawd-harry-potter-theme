@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<style>
+@keyframes breathe{0%,100%{transform:translateY(0)}50%{transform:translateY(-2.5px)}}
+@keyframes owlBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes wingFlap{0%,100%{transform:rotate(0deg)}50%{transform:rotate(-38deg)}}
+@keyframes wingFlapR{0%,100%{transform:rotate(0deg)}50%{transform:rotate(38deg)}}
+@keyframes wave{0%,100%{transform:rotate(0deg)}50%{transform:rotate(14deg)}}
+@keyframes swing{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+</style>
+<ellipse cx="100" cy="172" rx="42" ry="6" fill="#2E2418" opacity="0.25"/>
+<!-- Hedwig with letter -->
+<g style="animation:owlBob 2s ease-in-out infinite"><g transform="translate(152,44)">
+  <g style="transform-origin:-7px 6px;animation:wingFlap 0.6s ease-in-out infinite"><ellipse cx="-12" cy="6" rx="5" ry="10" fill="#E9E4D8" transform="rotate(20 -12 6)"/></g>
+  <g style="transform-origin:7px 6px;animation:wingFlapR 0.6s ease-in-out infinite"><ellipse cx="12" cy="6" rx="5" ry="10" fill="#E9E4D8" transform="rotate(-20 12 6)"/></g>
+  <ellipse cx="0" cy="10" rx="9" ry="12" fill="#F4F1EA" stroke="#D8D2C8" stroke-width="1"/>
+  <circle cx="-3" cy="14" r="0.9" fill="#C9C0B0"/><circle cx="3" cy="14" r="0.9" fill="#C9C0B0"/><circle cx="0" cy="18" r="0.9" fill="#C9C0B0"/>
+  <circle cx="0" cy="-3" r="8.5" fill="#F4F1EA" stroke="#D8D2C8" stroke-width="1"/>
+  <circle cx="-3.2" cy="-4.5" r="2.6" fill="#F0B429"/><circle cx="3.2" cy="-4.5" r="2.6" fill="#F0B429"/>
+  <circle cx="-3.2" cy="-4.5" r="1.3" fill="#1E1E1E"/><circle cx="3.2" cy="-4.5" r="1.3" fill="#1E1E1E"/>
+  <polygon points="-1.6,-1.5 1.6,-1.5 0,1.5" fill="#E8A33D"/>
+  <line x1="0" y1="22" x2="0" y2="27" stroke="#C9B98F" stroke-width="1.2"/>
+  <g style="transform-origin:0px 27px;animation:swing 1.4s ease-in-out infinite">
+    <rect x="-8" y="27" width="16" height="11" rx="1" fill="#F3E7C6" stroke="#C9B98F" stroke-width="1.2"/>
+    <path d="M-8,27 L0,34 L8,27" stroke="#C9B98F" stroke-width="1.2" fill="none"/>
+    <circle cx="0" cy="33.5" r="2" fill="#B03030"/>
+  </g>
+</g></g>
+<g style="animation:breathe 3.5s ease-in-out infinite">
+  <ellipse cx="87" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <ellipse cx="113" cy="167" rx="10" ry="4.5" fill="#2A2A2A"/>
+  <path d="M68,166 Q64,122 100,112 Q136,122 132,166 Z" fill="#3D3D55"/>
+  <path d="M100,114 L92,166 L108,166 Z" fill="#6E1414"/>
+  <path d="M100,114 L96,166 L104,166 Z" fill="#8C1B1B"/>
+  <g transform="rotate(18 74 132)"><ellipse cx="74" cy="134" rx="7.5" ry="15" fill="#34344A"/></g>
+  <circle cx="68" cy="147" r="5" fill="#F6D6AE"/>
+  <!-- waving arm toward owl -->
+  <g style="transform-origin:122px 124px;animation:wave 0.9s ease-in-out infinite">
+    <g transform="rotate(155 127 125)"><ellipse cx="127" cy="125" rx="7" ry="14" fill="#34344A"/></g>
+    <circle cx="133" cy="111" r="5" fill="#F6D6AE"/>
+  </g>
+  <circle cx="100" cy="80" r="34" fill="#F6D6AE"/>
+  <ellipse cx="79" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <ellipse cx="121" cy="96" rx="5" ry="3" fill="#F0AE9B" opacity="0.6"/>
+  <path d="M94,103 Q100,109 106,103" stroke="#B06A5A" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="86" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <ellipse cx="114" cy="90" rx="7.5" ry="8.5" fill="#FFFFFF"/>
+  <circle cx="88.5" cy="87.5" r="4.2" fill="#2F7A3F"/>
+  <circle cx="116.5" cy="87.5" r="4.2" fill="#2F7A3F"/>
+  <circle cx="87" cy="86" r="1.5" fill="#FFFFFF"/>
+  <circle cx="115" cy="86" r="1.5" fill="#FFFFFF"/>
+  <path d="M66,88 Q58,40 100,36 Q142,40 134,88 L130,72 L122,80 L118,64 L108,74 L104,60 L96,70 L92,56 L86,58 L82,72 L74,66 L70,80 Z" fill="#26221F"/>
+  <polyline points="89,60 85,65 89,69 85,74" stroke="#C94F3D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="86" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <circle cx="114" cy="90" r="11.5" fill="none" stroke="#1C1C1C" stroke-width="2.5"/>
+  <line x1="97.5" y1="90" x2="102.5" y2="90" stroke="#1C1C1C" stroke-width="2.5"/>
+  <rect x="78" y="106" width="44" height="11" rx="5.5" fill="#7F0909"/>
+  <rect x="86" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="100" y="106" width="7" height="11" fill="#E6A817"/>
+  <rect x="109" y="115" width="11" height="26" rx="2" fill="#7F0909"/>
+  <rect x="109" y="121" width="11" height="5" fill="#E6A817"/>
+  <rect x="109" y="131" width="11" height="5" fill="#E6A817"/>
+</g>
+</svg>
