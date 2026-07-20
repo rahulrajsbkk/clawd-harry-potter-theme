@@ -26,7 +26,22 @@ All assets are pure CSS-animated SVG, no GIFs or external dependencies.
 - **click / double-click** — Lumos! wand sparks
 - **poking repeatedly** — annoyed, arms crossed
 
-## Install
+## Install with Claude Code (copy-paste prompt)
+
+Paste this into [Claude Code](https://claude.com/claude-code) (or any coding agent) and it will install the theme for you:
+
+```text
+Install the Clawd on Desk theme from https://github.com/rahulrajsbkk/clawd-harry-potter-theme
+Clone the repo and copy theme.json and the assets/ folder into my Clawd on Desk
+user themes directory as "harry-potter":
+  - macOS:   ~/Library/Application Support/clawd-on-desk/themes/harry-potter
+  - Windows: %APPDATA%\clawd-on-desk\themes\harry-potter
+  - Linux:   ~/.config/clawd-on-desk/themes/harry-potter
+Don't touch the app's built-in themes. When done, remind me to restart
+Clawd on Desk and select "Harry Potter" under Settings → Theme.
+```
+
+## Install manually
 
 1. Copy this folder to your Clawd themes directory:
    - **macOS**: `~/Library/Application Support/clawd-on-desk/themes/harry-potter/`
