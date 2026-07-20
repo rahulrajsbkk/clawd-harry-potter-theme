@@ -25,18 +25,18 @@
 
 ## Preview
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center"><img src="assets/hp-idle.svg" width="120" alt="Idle"><br><sub>Idle</sub></td>
-    <td align="center"><img src="assets/hp-thinking.svg" width="120" alt="Thinking"><br><sub>Thinking</sub></td>
-    <td align="center"><img src="assets/hp-working.svg" width="120" alt="Working"><br><sub>Working</sub></td>
-    <td align="center"><img src="assets/hp-juggling.svg" width="120" alt="Juggling"><br><sub>Juggling</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-idle.svg" width="100%" alt="Idle"><br><sub>Idle</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-thinking.svg" width="100%" alt="Thinking"><br><sub>Thinking</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-working.svg" width="100%" alt="Working"><br><sub>Working</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-juggling.svg" width="100%" alt="Juggling"><br><sub>Juggling</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/hp-attention.svg" width="120" alt="Attention"><br><sub>Attention</sub></td>
-    <td align="center"><img src="assets/hp-notification.svg" width="120" alt="Notification"><br><sub>Notification</sub></td>
-    <td align="center"><img src="assets/hp-sleeping.svg" width="120" alt="Sleeping"><br><sub>Sleeping</sub></td>
-    <td align="center"><img src="assets/hp-error.svg" width="120" alt="Error"><br><sub>Error</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-attention.svg" width="100%" alt="Attention"><br><sub>Attention</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-notification.svg" width="100%" alt="Notification"><br><sub>Notification</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-sleeping.svg" width="100%" alt="Sleeping"><br><sub>Sleeping</sub></td>
+    <td align="center" width="25%"><img src="assets/hp-error.svg" width="100%" alt="Error"><br><sub>Error</sub></td>
   </tr>
 </table>
 
