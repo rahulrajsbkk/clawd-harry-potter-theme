@@ -1,16 +1,29 @@
-# Harry Potter — Clawd on Desk Theme
+<p align="center">
+  <img src="assets/hp-idle.svg" alt="Harry Potter — Clawd on Desk theme" width="180">
+</p>
 
-A chibi Harry Potter desk pet theme for [Clawd on Desk](https://github.com/rullerzhou-afk/clawd-on-desk): messy hair, round glasses, lightning scar, Gryffindor scarf — and a golden snitch that never leaves him alone.
+<h1 align="center">Harry Potter — Clawd on Desk Theme</h1>
 
-He reacts in real time to your coding agent's activity — thinking, working, errors, permission prompts, and task completion — for any agent Clawd on Desk supports (Claude Code, Codex CLI, Copilot CLI, Cursor, Gemini CLI, and more).
-
-All assets are pure CSS-animated SVG, no GIFs or external dependencies.
-
-## Preview
+<hr>
 
 <p align="center">
-  <img src="assets/hp-idle.svg" alt="Harry Potter theme preview" width="220">
+  A chibi Harry Potter desk pet for <a href="https://github.com/rullerzhou-afk/clawd-on-desk">Clawd on Desk</a> —<br>
+  messy hair, round glasses, lightning scar, Gryffindor scarf, and a golden snitch that never leaves him alone.
 </p>
+
+<p align="center">
+  ⚡ Reacts in real time to your coding agent — works with any agent Clawd on Desk supports (Claude Code, Codex CLI, Copilot CLI, Cursor, Gemini CLI…).<br>
+  Pure CSS-animated SVG — no GIFs, no external dependencies.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-1.0.0-D3A625?style=flat-square&labelColor=740001" alt="version 1.0.0">
+  <img src="https://img.shields.io/badge/for-Clawd%20on%20Desk-D3A625?style=flat-square&labelColor=740001" alt="for Clawd on Desk">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-D3A625?style=flat-square&labelColor=740001" alt="platform Windows | macOS | Linux">
+  <img src="https://img.shields.io/badge/states-18%20SVG-D3A625?style=flat-square&labelColor=740001" alt="18 SVG states">
+</p>
+
+## Preview
 
 <table>
   <tr>
